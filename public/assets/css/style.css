@@ -1,0 +1,432 @@
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #FF9A36;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: 'Gilroy Light', sans-serif;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.border-dashed {
+    border-style: dashed;
+    border-color: #FF9A36;
+}
+
+.text-yellow {
+    color: #FF9A36;
+}
+
+.text-blue {
+    color: rgb(30, 66, 159);
+}
+
+.text-gray {
+    color: gray;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.transition {
+    transition-property: all;
+}
+
+.duration-200 {
+    transition-duration: 200ms;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+.hover\:-translate-y-1:hover {
+    transform: translateY(-0.25rem);
+    /* Menggeser elemen ke atas saat di-hover */
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #00008B, #3B3BBD);
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.leading-default {
+    line-height: 1.5;
+}
+
+/* Button styles */
+button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.375rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-0.25rem);
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #FF9A36;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: 'Gilroy Light', sans-serif;
+}
+
+.btn-gradient-blue {
+    background: linear-gradient(to right, white, #0000ff);
+    /* Gradien dari putih ke biru */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* Atur sudut tombol */
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    /* Bayangan tombol */
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Gilroy Light', sans-serif;
+}
+
+.btn-gradient-blue:hover {
+    background: linear-gradient(to right, white, #000099);
+    /* Gradien sedikit lebih gelap saat hover */
+}
+
+.form-control {
+    width: 100%;
+    /* Ensure form controls are 100% width */
+}
+
+section {
+    margin-top: 10%;
+    width: 100%;
+    /* Make section width responsive */
+    max-width: 600px;
+    /* Maximum width for larger screens */
+    margin: auto;
+    /* Center the section */
+}
+
+.font-medium {
+    font-weight: bolder;
+}
+
+.form-control,
+.form-select {
+    border-style: solid;
+    padding: 8px;
+    border-radius: 7px;
+    border-width: 1px;
+}
+
+/* Grid dengan Kolom Kustom */
+.custom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr; /* Kotak hijau dan merah sama, kotak oranye lebih besar */
+    gap: 1rem; /* Sesuaikan jarak antar kotak */
+}
+
+/* Kotak Hijau */
+.kotak-hijau {
+    background: linear-gradient(to right, #29B147, #8BE52E);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+/* Kotak Merah */
+.kotak-merah {
+    background: linear-gradient(to right, #C20000, #FF0000);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+/* Kotak Oranye */
+.kotak-oranye {
+    background: linear-gradient(to right, #F24E1E, #FF9A36);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Gaya gambar gedung */
+.gambar-gedung {
+    width: 100%;
+    height: 16rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk elemen profil */
+.profil-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #A0AEC0; /* Tailwind Gray-400 */
+    border-radius: 9999px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flex container untuk elemen dalam antrean dan sudah berhasil */
+.flex-container {
+    background-color: #E2E8F0; /* Tailwind Gray-300 */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+/* Grid dengan Kolom Kustom */
+.custom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr; /* Kotak hijau dan merah sama, kotak oranye lebih besar */
+    gap: 1rem; /* Sesuaikan jarak antar kotak */
+}
+
+/* Kotak Hijau */
+.kotak-hijau {
+    background: linear-gradient(to right, #29B147, #8BE52E);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+/* Kotak Merah */
+.kotak-merah {
+    background: linear-gradient(to right, #C20000, #FF0000);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+/* Kotak Oranye */
+.kotak-oranye {
+    background: linear-gradient(to right, #F24E1E, #FF9A36);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Gaya gambar gedung */
+.gambar-gedung {
+    width: 100%;
+    height: 16rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk elemen profil */
+.profil-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #A0AEC0; /* Tailwind Gray-400 */
+    border-radius: 9999px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flex container untuk elemen dalam antrean dan sudah berhasil */
+.flex-container {
+    background-color: #E2E8F0; /* Tailwind Gray-300 */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Definisikan gradasi warna oranye untuk step yang complete */
+.bg-gradient-orange {
+    background: linear-gradient(90deg, #FF7F00, #FF9A36); /* Gradasi oranye */
+}
+
+/* Tambahkan gradasi biru pada garis penghubung */
+.line-gradient-blue {
+    background: linear-gradient(90deg, #00008B 0%, #295F98 100%); /* Gradasi biru untuk garis */
+}
+
+/* Definisikan gradasi pada teks untuk step yang complete */
+.text-gradient-orange {
+    background: linear-gradient(90deg, #FF7F00, #FF9A36); /* Gradasi oranye pada teks */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Ini akan menghilangkan warna teks default */
+}
+
+/* Warna teks abu-abu untuk step yang belum complete */
+.text-gray-pending {
+    color: #A0AEC0; /* Warna abu-abu untuk teks pending */
+}
+
+/* sweet alert style */
+/* CSS untuk tombol konfirmasi */
+.swal-confirm-button, .swal2-confirm {
+    background-color: #4CAF50 !important;  /* Warna latar belakang tombol */
+    color: white !important;  /* Teks awal terlihat */
+    font-size: 16px;  /* Ukuran font */
+    text-align: center;  /* Teks di tengah */
+    padding: 12px 24px;  /* Ukuran tombol */
+    border-radius: 8px;  /* Sudut tombol melengkung */
+    cursor: pointer;  /* Menunjukkan bahwa tombol dapat diklik */
+    opacity: 1;  /* Tombol terlihat */
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+/* Efek hover pada tombol konfirmasi */
+.swal-confirm-button:hover {
+    color: white !important;  /* Warna teks saat hover */
+    background-color: #45a049 !important;  /* Warna latar belakang saat hover */
+    transform: scale(1.05);  /* Efek memperbesar tombol sedikit saat hover */
+}
+
+/* CSS untuk tombol batal */
+.swal-cancel-button {
+    background-color: #f44336 !important;  /* Latar belakang transparan */
+    color: white !important;  /* Teks merah yang terlihat */
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 1;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+/* Efek hover pada tombol batal */
+.swal-cancel-button:hover {
+    color: white !important;  /* Warna teks saat hover */
+    background-color: #f44336 !important;  /* Warna latar belakang saat hover */
+    transform: scale(1.05);  /* Efek memperbesar tombol sedikit saat hover */
+}
+
+.selected-notification {
+    background-color: #e5e7eb !important; /* Ubah warna latar belakang menjadi abu-abu */
+}
+
+/* <style> */
+    /* Responsif di perangkat kecil */
+    @media screen and (max-width: 768px) {
+        /* Adjust padding-bottom for mobile screens if needed */
+        .pdf-container {
+            padding-bottom: 160%; /* Slightly taller on mobile for better readability */
+        }
+
+        #content {
+            padding: 2rem 1rem;
+        }
+
+        .flex.items-start {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        #progressStep1,
+        #line2 {
+            width: 100%;
+            height: 0.5rem; /* Reduce height for better visual on mobile */
+        }
+
+        .step-indicator {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        #circle1, #circle2, #circle3 {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .col-xl-12, .col-12, .col-sm-6 {
+            width: 100%;
+        }
+
+        .dropdown-menu {
+            width: 100% !important; /* Menyesuaikan lebar dropdown di layar kecil */
+            left: 0;
+        }
+        .form-select {
+            width: 100%; /* Menyesuaikan ukuran select box agar penuh pada layar kecil */
+        }
+
+
+    }
+/* </style> */
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        min-width: 200px; /* Mengatur lebar minimal dropdown di layar besar */
+    }
+}
